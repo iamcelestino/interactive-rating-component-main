@@ -17,7 +17,7 @@
 }
 
 body {
-    max-width: 480px;
+    max-width: 25em;
     margin: auto;
     background-color: black;
     font-family: 'Overpass', sans-serif;
@@ -27,11 +27,10 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 100dvh;
+    line-height: 1.5;
 }
 
-main {
-    padding: 2rem;
-}
+
 
 .wrapper {
     background: var(--component-bg);
@@ -47,6 +46,10 @@ main {
 
 h2, h3{
     color: var(--neutral-white);
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 h3, p {
@@ -81,7 +84,6 @@ p {
     color: var(--neutral-white);
 }
 
-
 button {
     background-color: var(--primary-orange);
     color: var(--neutral-white);
@@ -114,9 +116,8 @@ button:hover {
 
 .thanks  {
     text-align: center;
-    width: 100%;
-    max-width: 400px;
-    margin: 10% auto;
+    max-width: 25em;
+    margin:  10% auto;
     padding: 2rem;
     background-color: var(--component-bg);
     border-radius: 20px;
